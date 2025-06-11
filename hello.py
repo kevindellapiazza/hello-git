@@ -1,2 +1,5 @@
-name = input("Come ti chiami? ")\nprint(f"Ciao, {name}!")
-print("Benvenuto su Git!")
+name = input("Come ti chiami? ")
+if name.lower() == "kevin":
+    print("Ciao Kevin, bentornato!")
+else:
+    print(f"Ciao, {name}!")
